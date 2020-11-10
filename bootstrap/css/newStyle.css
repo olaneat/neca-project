@@ -1,0 +1,633 @@
+footer{
+  margin-top: 2%;
+}
+#header-content{
+  background-image: url(../../images/banner22.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70%;
+  width: 100%;
+}
+#service-title{
+  text-align: center;
+}
+
+#contact-title{
+  text-align: center;
+}
+
+#go{
+  color: aquamarine;
+}
+#carRepair div h4{
+  text-align: center;
+}
+
+#carRental div h4 {
+  text-align: center;
+}
+
+#carSales{
+  box-shadow: 0 5px 20px;
+  width: auto;
+  padding: 3%;
+}
+#carRental{
+  box-shadow: 0 5px 20px;
+  width: auto;
+  padding: 3%;
+}
+#carRepair{
+  box-shadow: 0 5px 20px;
+  width: auto;
+  padding: 3%;
+}
+#carSales div h4{
+  text-align: center;
+}
+#navlink ul li a:hover{
+  color: rgba(255, 240, 0.7);
+}
+
+#carSales div p{
+  line-height: 2;
+  text-align: justify;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#carRental p{
+  line-height: 2;
+  text-align: justify;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#carRepair div p{
+  line-height: 2;
+  text-align: justify;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about_us{
+  background-image: url(../../images/ab.jpg); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+#abt_txt h2{
+  text-align: center;
+  padding-top: 4%;
+  color: #ffffff ;
+  font-family: cursive;
+}
+
+
+#contact_us{
+  background-image: url('../../images/g7.jpg'); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+  height: 81%;
+}
+
+[type="button"]{
+	background-color: green;
+	color: white;
+	padding: 2%;
+	text-align: center;
+	margin: auto;
+}
+
+#collection{
+  width: 80%;
+  margin: 2% 10% 2% 10%;
+}
+#gallery-title{
+  text-align: center;
+}
+#gallery-title h2{
+  display: inline;
+  font-family: cursive;
+}
+#latest{
+  color: rgba(255, 240, 0.7);
+  margin: 0.7%;
+}
+footer{
+  background-color:rgba(192,192,192,0.3);
+  height: 15%;
+}
+
+#footer-txt{
+  text-align: center;
+}
+@media(max-width:599px){
+  #myContact{ 
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 10%;
+  }
+
+  
+  #now{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 3% 10% 3% 10%;
+  }
+  #now-img{
+    width: 80%;
+    margin: 3% 10% 3% 10%;
+
+  }
+#now-img img{
+  width: 100%;
+  height: 100%;
+}
+  #banner-text{
+    width: 100%;
+  }
+  #banner-text h1{
+    display: inline;
+    font-size: 1.9em;
+  }
+  
+  
+  #contact div{
+    display: inline-block;
+    color: #ffffff;
+    padding: 2%;
+    font-family: cursive;
+  }
+  
+  #social-media{
+    margin: 0% 0% 5% 80%;
+
+  }
+
+  #social-media div{ 
+    display: inline;
+    border-radius: 50%;
+    width: 100px;
+    padding: 8%;
+    height: 100px;
+  }
+  #social-media div a{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #in{
+    background-color: #0e76a8;
+    padding-top: 5%;
+  }
+  #tw{
+    background-color:#00acee;
+    padding-top: 5%;
+  }
+  #fb{
+    background-color: #3b5998;
+    padding: 5%;
+  }
+  #my-links{
+    width: 100%;
+    margin: 0% 10% 0% 10%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #logo{
+    width: 30%;
+    height: 30%;
+    
+  }
+  #logo img{
+    width: 80%;
+    height: 40%
+  }
+
+  #my-links{
+    width: 100%;
+    margin: 0% 0% 7% 20%;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    background-color: #ffffff;
+  }
+
+  #logo{
+    margin: 3%;
+    width: 70%;
+    height: 80%;
+    
+  }
+  #logo img{
+    width: 35%;
+    height: 75%
+  }
+  
+  nav{
+    margin: 3%;
+  }
+
+  
+  #service-header{
+    line-height: 30px;
+    margin: 10% 0% 5% 0%;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  #service-header h2{
+    display: inline;
+    font-weight: 800;
+    font-size: 1.5em;
+    padding-left: 2%;
+    font-style: italic;
+    font-family: cursive;
+  }
+  
+  #service-row{
+    display: flex;
+     flex-direction: column;
+   }
+   #service {
+     width:80%;
+     margin: 2% 15% 2% 10%
+   }
+   #service-row div{
+     margin: 1% 10% 3% 3%;
+     width: 100%;
+   }
+
+   #service-row div p{
+    padding:2% 5% 2% 2%
+
+   }
+   #our-contact div{
+     display: inline;
+    
+   }
+   #our-contact{
+     margin-top: 20%;
+   }
+   #address div{
+    display: flex;
+    flex-direction: row;
+    margin: 3% ;
+    width: auto;
+    padding: 2%;
+    border-radius: 50%;
+   }
+   #address div span{
+    margin-right:5%;
+    text-align: center;
+    padding-top: 6%;
+    color: #ffffff
+    
+   }
+   #address div h4{
+     font-size: 1.4em;
+   }
+  #tel{
+    display: inline;
+  }
+
+  
+	#contact_us{
+		display: flex;
+		flex-direction:column ;
+	}
+	#contactForm{
+   
+    width: 100%;
+		background-color: rgba(255, 255, 255, 0.3);
+		padding: 2%;
+  }
+  [type='textarea']{
+    margin-bottom:5% ;
+  }
+
+
+  #tel h4{
+    font-size: 1.0em;
+    font-family: cursive;
+    color: #ffffff;
+  }
+  #email-add h4{
+    font-size: 1.0em;
+    font-family: cursive;
+    color: #ffffff;
+  }
+  #add h4{
+    font-size: 1.0em;
+    font-family: cursive;
+    color: #ffffff;
+  }
+	label{
+    font-weight: 600;
+    margin: 1%;
+		padding: 2% 0% 2% 0%;
+	}
+  #gallery-row1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+  }
+  #gallery-row1 img{
+    width: 100%;
+    margin: 2% 5% 2% 5%;
+  }
+  #gallery-row2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+  }
+
+  #gallery-row2 img{
+    width: 100%;
+    margin: 2% 5% 2% 5%;
+  }
+
+  #gallery-row3{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+  }
+
+  #gallery-row3 img{
+    width: 100%;
+    margin: 2% 5% 2% 5%;
+  }
+  #contact{
+    background-image: url('../../images/g1.jpg');
+  }
+
+}
+
+@media(min-width:600px){  
+  #myContact{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #myContact div{
+    display: inline;
+    
+  }
+
+  #now{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 3% 20% 3% 10%;
+  }
+  #now-img{
+    width: 80%;
+    margin: 3% 10% 3% 10%;
+
+  }
+#now-img img{
+  width: 90%;
+  height: 90%;
+}
+
+  #contact{
+    margin: 0.7% 0% 0% 3%;
+  }
+ 
+  #contact div{
+    display: inline;
+    color: #ffffff;
+    font-family: cursive;
+    padding: 3%;
+    
+  }
+
+  #social-media{
+    margin: -1.6% 5% 9% 80%;
+    
+  }
+
+  #social-media div{ 
+    display: inline;
+    border-radius: 50%;
+    width: 50px;
+    padding: 4%;
+    height: 50px;
+    margin: 2% ;
+  }
+  #social-media div a{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #in{
+    background-color: #0e76a8;
+    padding: 5%;
+  }
+  #tw{
+    background-color:#00acee;
+    padding: 2%;
+  }
+  #fb{
+    background-color: #3b5998;
+    padding: 2%;
+  }
+
+  #my-links{
+    width: 60%;
+    margin: 0% 0% 0% 20%;
+    display: flex;
+    height: 17%;
+    flex-direction: row;
+    background-color: #ffffff;
+  }
+
+  #logo{
+    margin: 3%;
+    width: 40%;
+    height: 50%;
+    
+  }
+  #logo img{
+    width: 35%;
+    height: 90%
+  }
+  
+  nav{
+    margin: 2%;
+  }
+  
+  
+  #service-header{
+    line-height: 30px;
+    margin: 10% 0% 5% 0%;
+  }
+  
+  
+  
+  #service-header h2{
+    text-align: center;
+    font-weight: 800;
+    display: inline;
+    font-size: 2em;
+    padding-left: 5%;
+    font-style: italic;
+    font-family: cursive;
+  }
+  
+  #service-row{
+   display: flex;
+    flex-direction: row;
+  }
+  #service {
+    width:80%;
+    margin: 2% 10% 2% 7%
+  }
+  #service-row div{
+    margin-left: 5%; 
+    width: 100%
+  }
+
+  #contact{
+  background-image: url('../../images/g1.jpg');
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  width: 80%;
+  margin: 0% 10% 0% 10%  ;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#address{
+  margin-top: 20%;
+}
+  
+	#contact_us{
+		display: flex;
+		flex-direction: row;
+	}
+
+	[type="button"]{
+	background-color: green;
+	color: white;
+	padding: 2%;
+	text-align: center;
+	margin: auto;
+}
+#contactForm{
+  margin: 0%;
+	background-color: rgba(255, 255, 255, 0.3);
+  padding: 0.5% 8% 0.5% 10% ;
+  width: 50%;
+}
+
+#our-contact{
+	margin: 10% 0% 0% 5%; 
+}
+#gallery-row1{
+  display: flex;
+  flex-direction: row;
+}
+#gallery-row1 div{
+  margin: 1% 7% 3% 0%;
+}   
+#gallery-row1 div img{
+  width: 100%;
+}
+
+#gallery-row2 div{
+  margin: 1% 1% 2% 0%;
+}
+#gallery-row2 div img{
+  width: 100%;
+
+}
+#gallery-row2{
+  display: flex;
+  flex-direction: row;
+}
+
+#gallery-row3{
+  display: flex;
+  flex-direction: row;
+}
+#gallery-row3 div{
+  margin: 1% 1% 2% 0%;
+}
+#gallery-row3 div img{
+  width: 100%;
+
+}
+
+#tel{
+  margin: -40% 0% 15% -50%;
+}
+
+#email-add{
+  margin: 0% 0% 15% -50%;
+
+}
+
+#address div{
+  display: flex;
+  flex-direction: row;
+  margin: 3% ;
+  width: auto;
+  padding: 2%;
+  border-radius: 50%;
+ }
+ #address div span{
+  margin-right:5%;
+  text-align: center;
+  padding-top: 6%;
+  color: #ffffff
+  
+ }
+ #address div h4{
+   font-size: 1.9em;
+ }
+#add{
+  margin: 0% 0% 15% -50%;
+
+}
+}
+
+.banner-text{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 4%;
+  font-weight: 900;
+}
+.banner-brief{
+  text-align: justify;
+  margin-left: 4%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+                        
+}
+.btn-custom{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  margin-left: 4%;
+}
+
+
+.spacer{
+  margin-top: 50px;
+}

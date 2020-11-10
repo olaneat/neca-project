@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/newStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/style.css">
+
+    <title>Sign up</title>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" class="form-control" required id="username" placeholder="Enta your Username">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" required id="password" placeholder="at least 8 characters">
+        </div>
+        <button type="submit" id="login" class="btn btn-success">Login</button>
+      </form>
+       <h4 id="alert" style="display: none;" class="alert alert-info" ></h4>
+      </div>
+    </div>
+    <script src="bootstrap/js/login.js"></script>
+  </body>
+</html>

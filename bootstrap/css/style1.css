@@ -1,0 +1,636 @@
+#header-content{
+  background-image: url(../../images/banner22.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70%;
+  width: 100%;
+}
+
+#carRepair div h4{
+  text-align: center;
+}
+
+#carRental div h4 {
+  text-align: center;
+}
+
+#carSales{
+  box-shadow: 0 5px 20px;
+  width: auto;
+  padding: 3%;
+}
+#carRental{
+  box-shadow: 0 5px 20px;
+  width: auto;
+  padding: 3%;
+}
+#carRepair{
+  box-shadow: 0 5px 20px;
+  width: auto;
+  padding: 3%;
+}
+#carSales div h4{
+  text-align: center;
+}
+#navlink ul li a:hover{
+  color: rgba(255, 240, 0.7);
+}
+
+#carSales div p{
+  line-height: 2;
+  text-align: justify;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#carRental p{
+  line-height: 2;
+  text-align: justify;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#carRepair div p{
+  line-height: 2;
+  text-align: justify;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about_us{
+  background-image: url(../../images/ab.jpg); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+#abt_txt h2{
+  text-align: center;
+  padding-top: 4%;
+  color: #ffffff ;
+  font-family: cursive;
+}
+
+#contact_us{
+  background-image: url('../../images/g7.jpg'); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+  height: 81%;
+}
+
+[type="button"]{
+	background-color: green;
+	color: white;
+	padding: 2%;
+	text-align: center;
+	margin: auto;
+}
+
+#collection{
+  width: 80%;
+  margin: 2% 10% 2% 10%;
+}
+#gallery-title{
+  text-align: center;
+}
+#gallery-title h2{
+  display: inline;
+  font-family: cursive;
+}
+#latest{
+  color: rgba(255, 240, 0.7);
+  margin: 0.7%;
+}
+
+@media(max-width:599px){
+  #myContact{ 
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 10%;
+  }
+
+  
+  #contact div{
+    display: inline-block;
+    color: #ffffff;
+    padding: 2%;
+    font-family: cursive;
+    margin: 0.2% 5%;
+  }
+  #social-media{
+    margin: 0% 0% 5% 80%;
+
+  }
+
+  #social-media div{ 
+    display: inline;
+    border-radius: 50%;
+    width: 100px;
+    padding: 8%;
+    height: 100px;
+  }
+  #social-media div a{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #in{
+    background-color: #0e76a8;
+    padding: 2%;
+  }
+  #tw{
+    background-color:#00acee;
+    padding: 2%;
+  }
+  #fb{
+    background-color: #3b5998;
+    padding: 2%;
+  }
+  #my-links{
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #logo{
+    width: 30%;
+    height: 30%;
+    
+  }
+  #logo img{
+    width: 80%;
+    height: 40%
+  }
+
+  #my-links{
+    width: 60%;
+    margin: 0% 0% 7% 20%;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    background-color: #ffffff;
+  }
+
+  #logo{
+    margin: 3%;
+    width: 70%;
+    height: 80%;
+    
+  }
+  #logo img{
+    width: 35%;
+    height: 75%
+  }
+  
+  nav{
+    margin: 3%;
+  }
+
+  #timer{
+    margin: 0% 1% 5% 15%;
+    width: 80%;
+  }
+  #coming{
+    margin: 2.5% 2.5% 1% 2.5%;
+    padding: 1%;
+    text-align: center;
+    font-family: cursive, Courier, monospace;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  
+  #timer div{
+    margin-top:1% ;
+    color: rgb(255, 255, 255);
+    padding: 5%;
+    font-weight: 100;
+    font-size: 1em;
+    font-family: cursive, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 20%;
+  }
+  #lauch{
+    color: rgba(255, 240, 0.7);
+    text-align: center;
+    font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial ;
+    font-size: 1.1em;
+  }
+
+  #service-header{
+    line-height: 30px;
+    margin: 10% 0% 5% 0%;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #service-header h2{
+    display: inline;
+    font-weight: 800;
+    font-size: 1.5em;
+    padding-left: 2%;
+    font-style: italic;
+    font-family: cursive;
+  }
+  #our{
+    text-align: center;
+    color: #000000;
+  }
+  #awesome{
+    color: rgba(255, 240, 50, 0.9);
+  }
+ 
+
+  #drive p{ 
+    color: rgba(10, 50, 140, 0.4);
+    text-align: center;
+  }
+
+  #service-row{
+    display: flex;
+     flex-direction: column;
+   }
+   #service {
+     width:80%;
+     margin: 2% 15% 2% 10%
+   }
+   #service-row div{
+     margin: 1% 3% 3% 3%;
+     width: 100%;
+   }
+
+   #service-row div p{
+    padding:2% 5% 2% 2%
+
+   }
+
+   #about_us{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+    margin: 3% 0% 3% 0%;
+    height: auto;
+	}
+
+	#about_text{
+		width: 90%;
+		margin: 2% 5% 0% 5%;
+		height: auto;
+	}
+	#about_text p{
+		line-height: 2;
+    padding: 2%;
+    text-align: justify;
+    font-weight: 500;
+    color: #ffffff;
+	}
+
+	#abt_vid{
+		margin: 5%;
+		width: 90%;
+		height: 40%;
+	}
+	video{
+		width: 100%;
+    height: 40%;
+    margin-bottom:7% ;
+	}
+	#contact_us{
+		display: flex;
+		flex-direction:column ;
+	}
+	#contactForm{
+		margin: 0%;
+		background-color: rgba(255, 255, 255, 0.3);
+		padding: 2%;
+  }
+  [type='textarea']{
+    margin-bottom:5% ;
+  }
+  #address div{
+    display: inline;
+  }
+
+  #tel h4{
+    font-size: 1.0em;
+    font-family: cursive;
+    color: #ffffff;
+  }
+  #email-add h4{
+    font-size: 1.0em;
+    font-family: cursive;
+    color: #ffffff;
+  }
+  #add h4{
+    font-size: 1.0em;
+    font-family: cursive;
+    color: #ffffff;
+  }
+	label{
+    font-weight: 600;
+    margin: 1%;
+		padding: 2% 0% 2% 0%;
+	}
+  #gallery-row1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+  }
+  #gallery-row1 img{
+    width: 100%;
+    margin: 2% 5% 2% 5%;
+  }
+  #gallery-row2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+  }
+
+  #gallery-row2 img{
+    width: 100%;
+    margin: 2% 5% 2% 5%;
+  }
+
+  #gallery-row3{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+  }
+
+  #gallery-row3 img{
+    width: 100%;
+    margin: 2% 5% 2% 5%;
+  }
+
+}
+
+@media(min-width:600px){  
+  #myContact{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #myContact div{
+    display: inline;
+    
+  }
+
+  #contact{
+    margin: 0.7% 0% 0% 3%;
+  }
+ 
+  #contact div{
+    display: inline;
+    color: #ffffff;
+    font-family: cursive;
+    padding: 3%;
+    margin:1% 5% 2% 0% ;
+  }
+
+  #social-media{
+    margin: -1.6% 5% 9% 80%;
+    
+  }
+
+  #social-media div{ 
+    display: inline;
+    border-radius: 50%;
+    width: 50px;
+    padding: 4%;
+    height: 50px;
+    margin: 2% ;
+  }
+  #social-media div a{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #in{
+    background-color: #0e76a8;
+    padding: 5%;
+  }
+  #tw{
+    background-color:#00acee;
+    padding: 2%;
+  }
+  #fb{
+    background-color: #3b5998;
+    padding: 2%;
+  }
+
+  #my-links{
+    width: 60%;
+    margin: 0% 0% 0% 20%;
+    display: flex;
+    height: 17%;
+    flex-direction: row;
+    background-color: #ffffff;
+  }
+
+  #logo{
+    margin: 3%;
+    width: 40%;
+    height: 50%;
+    
+  }
+  #logo img{
+    width: 35%;
+    height: 90%
+  }
+  
+  nav{
+    margin: 2%;
+  }
+  
+  #timer{
+    margin: 0% 1% 5% 15%;
+    width: 80%;
+  }
+  #timer div{
+    margin-top:1% ;
+    color: rgb(255, 255, 255);
+    padding: 5%;
+    font-weight: 1000;
+    font-size: 1.5em;
+    font-family: cursive, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 20%;
+  }
+
+  #lauch{
+    color: rgba(255, 240, 0.7);
+    text-align: center;
+    font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial ;
+    font-size: 1.1em;
+  }
+  #coming{
+    margin: 2.5% 2.5% 0% 2.5%;
+    padding: 2%;
+    text-align: center;
+    font-family: cursive, Courier, monospace;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  #service-header{
+    line-height: 30px;
+    margin: 10% 0% 5% 0%;
+  }
+  
+  
+  
+  #service-header h2{
+    text-align: center;
+    font-weight: 800;
+    display: inline;
+    font-size: 2em;
+    padding-left: 5%;
+    font-style: italic;
+    font-family: cursive;
+  }
+  #our{
+    text-align: center;
+    color: #000000;
+  }
+  #awesome{
+    color: rgba(255, 240, 50, 0.9);
+  }
+  #drive p{ 
+    text-align: center;
+    color: rgba(10, 50, 140, 0.4);
+  }
+
+  #service-row{
+   display: flex;
+    flex-direction: row;
+  }
+  #service {
+    width:80%;
+    margin: 2% 10% 2% 7%
+  }
+  #service-row div{
+    margin-left: 5%; 
+    width: 100%
+  }
+
+  #about_us{
+    padding: 0% 7% 0% 7%;
+  }
+
+
+  #about_us div{ 
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		margin: 3% 0% 3% 0%;
+	}
+	
+	#about_text{
+		width: 70%;
+		line-height: 3;
+		margin-right: 1%;
+		
+
+	}
+	#about_text  p{
+    padding: 2%;
+    color: #ffffff;
+	}
+	#abt-vid{
+    width: 30%;
+    border: 1px solid white;
+	}
+	video{
+		width: 100%;
+		height: 70%;
+		margin-top: 1%;
+
+	}
+	#contact_us{
+		display: flex;
+		flex-direction: row;
+	}
+
+	[type="button"]{
+	background-color: green;
+	color: white;
+	padding: 2%;
+	text-align: center;
+	margin: auto;
+}
+#contactForm{
+	margin: 0%  2% 0% 0%;
+	background-color: rgba(255, 255, 255, 0.3);
+  padding: 0.5% 8% 0.5% 10% ;
+  width: 100%;
+}
+#address{
+	margin: 30%;
+}
+#gallery-row1{
+  display: flex;
+  flex-direction: row;
+}
+#gallery-row1 div{
+  margin: 1% 7% 3% 0%;
+}   
+#gallery-row1 div img{
+  width: 100%;
+}
+
+#gallery-row2 div{
+  margin: 1% 1% 2% 0%;
+}
+#gallery-row2 div img{
+  width: 100%;
+
+}
+#gallery-row2{
+  display: flex;
+  flex-direction: row;
+}
+
+#gallery-row3{
+  display: flex;
+  flex-direction: row;
+}
+#gallery-row3 div{
+  margin: 1% 1% 2% 0%;
+}
+#gallery-row3 div img{
+  width: 100%;
+
+}
+
+#tel{
+  margin: -40% 0% 15% -50%;
+}
+
+#email-add{
+  margin: 0% 0% 15% -50%;
+
+}
+
+#add{
+  margin: 0% 0% 15% -50%;
+
+}
+}
